@@ -1,0 +1,184 @@
+h1,h2,h3,h4,h5,h6{font-size:inherit;}
+
+.zagolovok {
+   text-align: center;
+}
+.zagolovok img {
+   width: 200px;
+   height: 150px;
+}
+.zagolovok h1 {
+   font-size:33px;
+}
+.zagolovok p {
+   font-size: 21px;
+}
+.filadelfia {
+   width: 370px;
+   box-shadow: 1px 1px 7px greenyellow;
+   text-align: center;
+   margin: 1.5% 3% ;
+}
+.filadelfia h2 {
+   font-size: 25px;
+}
+.filadelfia img {
+   width: 200px;
+}
+.wraperButton {
+   display: flex;
+   cursor: pointer;
+}
+.wraperButton div {
+   padding: 8px 13px;
+}
+.color {
+   background-color: rgb(231, 231, 231);
+   border: 1px solid rgb(157, 157, 157);
+}
+.wraperButtonCenaFlex {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.WraperCorzina {
+   margin: 13px;
+   font-size: 21px;
+   padding: 9px 29px;
+}
+.california-hit {
+   width: 370px;
+   box-shadow: 1px 1px 7px greenyellow;
+   text-align: center;
+   margin: 1.5% 3% ;
+}
+.california-hit h2 {
+   font-size: 25px;
+}
+.california-hit img {
+   width: 200px;
+}
+.california-tempura {
+   width: 370px;
+   box-shadow: 1px 1px 7px greenyellow;
+   text-align: center;
+   margin: 1.5% 3% ;
+}
+.california-tempura h2 {
+   font-size: 25px;
+}
+.california-tempura img {
+   width: 200px;
+}
+.zapech-california {
+   width: 370px;
+   box-shadow: 1px 1px 7px greenyellow;
+   text-align: center;
+   margin: 1.5% 3% ;
+}
+.zapech-california h2 {
+   font-size: 20px;
+}
+.zapech-california img {
+   width: 200px;
+}
+.conteinerWraperTop {
+   display: flex;
+}
+.conteinerWraperBottom {
+   display: flex;
+}
+
+.conteinerWraperFlex {
+   display: flex;
+}
+.conteinerKorzinaZakaz {
+   width: 340px;
+   box-shadow: 1px 1px 7px greenyellow;
+   text-align: center;
+   height: auto;
+   align-self:flex-start;
+   margin: 0.8% 3% ;
+}
+
+.conteinerKorzinaZakazTop h2 {
+   font-size: 26px;
+}
+.conteinerKorzinaZakazTop p{
+font-size: 21px;
+background-color: rgb(200, 199, 199);
+padding: 7px;
+margin: 19px;
+}
+.conteinerKorzinaZakazTop {
+   border-bottom: 2px solid rgb(163, 158, 158);
+   margin: 19px;
+}
+.conteinerCorzinaCenterBottom {
+   border-bottom: 2px solid rgb(163, 158, 158);
+   margin: 19px;
+}
+.conteinerCorzinaCenterBottom  p{
+font-size: 23px;
+}
+.conteinerCorzinaCenterBottom span {
+   color: greenyellow;
+}
+.conteinerCorzinaBottom {
+   display: none;
+   flex-direction: column;
+   align-items: center;
+}
+.conteinerCorzinaBottom h2 {
+   font-size: 23px;
+}
+.conteinerCorzinaBottom input {
+   height: 21px;
+   margin: 0 0 15px 0;
+}
+.conteinerCorzinaBottom button {
+   padding: 10px 21px;
+   background-color: rgb(13, 223, 223);
+   border: 0;
+   font-size: 21px;
+   border-radius: 13px;
+   margin-bottom: 17px;
+}
+
+.corzinaProduct {
+   border-bottom: 2px solid rgb(163, 158, 158);
+   margin: 19px;
+}
+.corzinaProduct img {
+   width: 170px;
+}
+.wraperButtonKorzina{
+   display: flex;
+   align-items:center;
+   justify-content: space-evenly;
+}
+.kollochestvi-cena {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.kollochestvi-cena p {
+   margin: 0 11px;
+}
+.exit {
+
+   position: relative;
+   font-size: 14px;
+   border: 3px solid red;
+   padding: 0px 4px;
+   width: 5px;
+   height: 3px;
+   color: red;
+   left: 41%;
+   cursor: pointer;
+}
+.exit:hover {
+   transition: 1s;
+   background-color: pink;
+   color: azure;
+}
